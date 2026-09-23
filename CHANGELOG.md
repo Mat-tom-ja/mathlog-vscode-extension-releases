@@ -18,6 +18,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.10] - 2026-09-23
+
+## [0.0.9] - 2026-09-23
+
+## [0.0.8] - 2026-09-23
+
 ## [0.0.7] - 2026-09-23
 
 ### Added

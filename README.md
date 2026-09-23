@@ -28,7 +28,7 @@ This extension is unofficial and provided as-is, without warranty. Read the foll
 
 ## Installation
 
-Install the `.vsix` file from the VS Code Extensions view with **Install from VSIX...**. Marketplace publication is not available yet.
+Install it from the **Marketplace**, or install a downloaded `.vsix` file from the VS Code Extensions view with **Install from VSIX...**.
 
 The extension requires VS Code `1.136.0` or later. MathJax is bundled, so the extension does not contact an external CDN at runtime.
 
