@@ -18,6 +18,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.11] - 2026-09-24
+
+### Changed
+
+- リリース用VSIXをルート直下ではなく`VSIX/`へ生成するようにした。
+
+### Fixed
+
+- 箇条書き内で長い数式を複数行化するとき、開始`$`を直前の本文と同じ行に保ち、Mathlog公式で数式として描画されるようにした。
+
 ## [0.0.10] - 2026-09-23
 
 ## [0.0.9] - 2026-09-23
