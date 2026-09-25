@@ -68,6 +68,7 @@ The `examples/` directory contains sample articles, macros, bibliography data, a
 ## Limitations
 
 - The preview approximates Mathlog's rendering and may differ in fonts and browser layout.
+- A hidden HTML comment keeps one reserved line, as it does on Mathlog, so a document whose comment lines change moves its following content. Inserting a formatter annotation comment is not guaranteed to leave the rendering unchanged. That reserved line comes from the plain-text `<!-- -->` annotations only: a `%` annotation inside math is a TeX comment that MathJax drops, so formatting that inserts one renders the same.
 - XyJax, TikZ, and unregistered Mathlog macros are not supported.
 - Workspace-local images are supported in the preview, but must be uploaded and changed to URLs before pasting an article into Mathlog.
 - Posting, syncing, authentication, collaboration, and automatic publishing are out of scope.

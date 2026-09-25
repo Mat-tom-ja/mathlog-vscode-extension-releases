@@ -18,6 +18,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.12] - 2026-09-26
+
+### Fixed
+
+- 数式の解析に失敗したときのエラー文を、プレビュー本文と同じフォントで描くようにした。MathJaxの既定は`serif`で、公式の窓（ゴシック）と字形も字幅も食い違い、プレビューの比較が実際より大きくずれていた（formatter-053）。
+
 ## [0.0.11] - 2026-09-24
 
 ### Changed
